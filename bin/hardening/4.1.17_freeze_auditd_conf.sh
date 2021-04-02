@@ -18,7 +18,7 @@ HARDENING_LEVEL=4
 DESCRIPTION="Make the audit configuration immutable."
 
 AUDIT_PARAMS='-e 2'
-FILE='/etc/audit/audit.rules'
+FILE='/etc/audit/rules.d/audit.rules'
 
 # This function will be called if the script status is on enabled / audit mode
 audit() {

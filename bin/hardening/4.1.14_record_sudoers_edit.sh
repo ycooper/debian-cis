@@ -19,7 +19,7 @@ DESCRIPTION="Collect changes to system administration scopre."
 
 AUDIT_PARAMS='-w /etc/sudoers -p wa -k sudoers
 -w /etc/sudoers.d/ -p wa -k sudoers'
-FILE='/etc/audit/audit.rules'
+FILE='/etc/audit/rules.d/audit.rules'
 
 # This function will be called if the script status is on enabled / audit mode
 audit() {

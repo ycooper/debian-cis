@@ -18,7 +18,7 @@ HARDENING_LEVEL=4
 DESCRIPTION="Record events that modify the system's mandatory access controls (MAC)."
 
 AUDIT_PARAMS='-w /etc/selinux/ -p wa -k MAC-policy'
-FILE='/etc/audit/audit.rules'
+FILE='/etc/audit/rules.d/audit.rules'
 
 # This function will be called if the script status is on enabled / audit mode
 audit() {

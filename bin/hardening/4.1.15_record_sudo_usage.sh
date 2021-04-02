@@ -18,7 +18,7 @@ HARDENING_LEVEL=4
 DESCRIPTION="Collect system administration actions (sudolog)."
 
 AUDIT_PARAMS='-w /var/log/auth.log -p wa -k sudoaction'
-FILE='/etc/audit/audit.rules'
+FILE='/etc/audit/rules.d/audit.rules'
 
 # This function will be called if the script status is on enabled / audit mode
 audit() {
